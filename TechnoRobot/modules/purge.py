@@ -3,9 +3,7 @@ from telethon import events
 
 from TechnoRobot import telethn
 from TechnoRobot.modules.helper_funcs.chat_status import (
-    can_delete_messages,
-    user_is_admin,
-)
+    can_delete_messages, user_is_admin)
 
 
 async def purge_messages(event):
